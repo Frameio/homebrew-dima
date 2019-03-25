@@ -1,6 +1,8 @@
-# dima-cli
+# DIMA
 
 A command-line tool to list, inspect and kill database queries.
+
+We've been using this tool since 2017 at Frame.io and decided to open source it. There will be a blog post with more details on the Frame.io Engineering Blog soon. Previous git history has been wiped by our security team.
 
 # Setup:
 
@@ -49,7 +51,7 @@ To inspect this DB, use the `-c` option, e.g. for a prefix `DIMA_DW2_something` 
 
 # Screenshots
 
-<img src="https://github.com/Frameio/dima-cli/raw/master/dima_cmd.png" alt="dima command" width="500"/>
-<img src="https://github.com/Frameio/dima-cli/raw/master/dima_show_cmd.png" alt="dima show command" width="500"/>
-<img src="https://github.com/Frameio/dima-cli/raw/master/dima_rm_cmd.png" alt="dima rm command" width="500"/>
+<img src="https://github.com/Frameio/homebrew-dima/raw/master/img/dima_cmd.png" alt="dima command" width="500"/>
+<img src="https://github.com/Frameio/homebrew-dima/raw/master/img/dima_show_cmd.png" alt="dima show command" width="500"/>
+<img src="https://github.com/Frameio/homebrew-dima/raw/master/img/dima_rm_cmd.png" alt="dima rm command" width="500"/>
 

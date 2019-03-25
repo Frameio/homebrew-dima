@@ -2,8 +2,8 @@ class Dima < Formula
   include Language::Python::Virtualenv
 
   desc "CLI to view and kill running queries in postgres"
-  homepage "https://github.com/Frameio/dima-homebrew"
-  url "https://github.com/Frameio/dima-cli/raw/master/homebrew/dima-1.0.0.tar.gz"
+  homepage "https://github.com/Frameio/homebrew-dima"
+  url "https://github.com/Frameio/homebrew-dima/raw/master/homebrew/dima-1.0.0.tar.gz"
   sha256 "d54f4d7267345954fe668b267625fbb6c452407d3689445922d51646125260ed"
   version "1.0.0"
 
