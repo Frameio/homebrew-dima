@@ -3,8 +3,8 @@ class Dima < Formula
 
   desc "CLI to view and kill running queries in postgres"
   homepage "https://github.com/Frameio/homebrew-dima"
-  url "https://github.com/Frameio/homebrew-dima/raw/master/homebrew/dima-1.0.0.tar.gz"
-  sha256 "d54f4d7267345954fe668b267625fbb6c452407d3689445922d51646125260ed"
+  url "https://github.com/matthewruttley/homebrew-dima/raw/master/dima-1.0.0.tar.gz"
+  sha256 "a2e818053e257ae7ac726a2a627aac78ff92d505024a11e2a87a54cb13655fae"
   version "1.0.0"
 
   depends_on "python@2"
@@ -14,7 +14,7 @@ class Dima < Formula
 
   resource "terminaltables" do
     url "https://files.pythonhosted.org/packages/9b/c4/4a21174f32f8a7e1104798c445dacdc1d4df86f2f26722767034e4de4bff/terminaltables-3.1.0.tar.gz"
-    sha256 "4a21174f32f8a7e1104798c445dacdc1d4df86f2f26722767034e4de4bff"
+    sha256 "f3eb0eb92e3833972ac36796293ca0906e998dc3be91fbe1f8615b331b853b81"
   end
 
   resource "psycopg2" do
