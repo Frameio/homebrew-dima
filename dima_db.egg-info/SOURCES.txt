@@ -1,0 +1,8 @@
+README.md
+dima.py
+setup.py
+dima_db.egg-info/PKG-INFO
+dima_db.egg-info/SOURCES.txt
+dima_db.egg-info/dependency_links.txt
+dima_db.egg-info/entry_points.txt
+dima_db.egg-info/top_level.txt

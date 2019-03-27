@@ -4,5 +4,5 @@
 # ./make.sh 1.0.0
 
 rm -f dima-*.tar.gz
-tar zcf dima-$1.tar.gz dima.py sample_creds README.md deploy.sh
-echo -n dima-$1.tar.gz | shasum -a 256
+tar zcf dima-$1.tar.gz dima.py sample_creds README.md deploy.sh setup.py
+shasum -a 256 dima-$1.tar.gz 
