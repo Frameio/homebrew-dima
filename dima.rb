@@ -4,7 +4,7 @@ class Dima < Formula
   desc "CLI to view and kill running queries in postgres"
   homepage "https://github.com/Frameio/homebrew-dima"
   url "https://github.com/matthewruttley/homebrew-dima/raw/master/v1.0.0.tar.gz"
-  sha256 "2644a5b81642b2912e1d93d144188aee1824da708be28c45af5e878593e514f0"
+  sha256 "5806856f688a3adf959f4643991b53dc7baf28975f69d7866e4307798bdc7153"
   version "1.0.0"
 
   depends_on "python@2"

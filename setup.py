@@ -1,8 +1,8 @@
 from setuptools import setup
 
 
-def readfile(filename):
-    with open(filename, 'r+') as f:
+def readfile(fn):
+    with open(fn, 'r+') as f:
         return f.read()
 
 setup(
@@ -25,5 +25,6 @@ setup(
         "License :: OSI Approved :: MIT License",
         "Operating System :: OS Independent",
         "Topic :: Database"
-    ]
+    ],
+    data_files = [("", ["LICENSE", "README.md"])]
 )
