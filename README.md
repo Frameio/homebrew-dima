@@ -9,12 +9,14 @@ We've been using this tool since 2017 at Frame.io and decided to open source it.
 
 Using pip: `pip install dima-db`
 
+Using homebrew: `brew tap Frameio/homebrew-dima && brew install dima`
+
 Locally:
 1. Clone this repo
 2. Set up the credentials (see below)
 3. Run: `python setup.py install`
 
-(homebrew setup is being worked on)
+(Homebrew core submission will be requested)
 
 # Credential Setup
 
