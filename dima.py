@@ -178,7 +178,8 @@ def show_queries(db, match=None):
 
         print AsciiTable(table).table
 
-if __name__ == '__main__':
+def main():
+    """Handler"""
 
     db = Postgres()
 
@@ -190,3 +191,7 @@ if __name__ == '__main__':
 
     elif args[0] == 'show':
         show_queries(db, args[1:])
+
+
+if __name__ == '__main__':
+    main()
